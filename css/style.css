@@ -182,7 +182,7 @@ body {
     }
 
     #about-container {
-        width: 450px;
+        width: 100%px;
         padding: 2rem;
         padding-bottom: 1rem;
     }
@@ -227,7 +227,7 @@ body {
     }
 
     #form-container {
-        width: 450px;
+        width: 100%;
     }
 
     #form-inner {
@@ -238,6 +238,9 @@ body {
     #register-form,
     #name-container {
         gap: 1rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
     
 }
